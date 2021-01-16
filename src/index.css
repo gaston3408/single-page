@@ -162,6 +162,7 @@ code {
   .famous-container {
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-right: 5px;
   }
   .card-container {
     width: 45%;
