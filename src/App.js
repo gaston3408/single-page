@@ -46,6 +46,8 @@ function App () {
             img: './images/pp.jpeg'
         },
     ] ;
+
+    const images = [ 'rock.jpeg', 'pop.png', 'latina.jpg',  'musica.jpg', 'dasda.jpeg' ] ;
     
 
 
@@ -67,11 +69,12 @@ function App () {
             </div>
             <h3 style={ { textAlign: 'center' } } >¿ QUE QUERES ESCUCHAR ?</h3>
             <div className="img-container">
-                <img className="img-music" src="./images/rock.jpeg"/>
-                <img className="img-music" src="./images/musica.jpg"/>
-                <img className="img-music" src="./images/latina.jpg"/>
-                <img className="img-music" src="./images/pop.png"/>
-                <img className="img-music" src="./images/images.jpeg"/>
+                {
+                    images.map( image => (
+                        
+                        <img key={ image } className="img-music" src={ `./images/${image}` }/>
+                    ) )
+                }
             </div>
             <Notices 
                 sections={ sections }
