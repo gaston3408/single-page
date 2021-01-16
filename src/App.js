@@ -46,7 +46,7 @@ function App () {
             img: './images/pp.jpeg'
         },
     ] ;
-
+    
 
 
     return (
@@ -68,10 +68,10 @@ function App () {
             <h3 style={ { textAlign: 'center' } } >¿ QUE QUERES ESCUCHAR ?</h3>
             <div className="img-container">
                 <img className="img-music" src="./images/rock.jpeg"/>
-                <img className="img-music" src="./images/rock.jpeg"/>
-                <img className="img-music" src="./images/rock.jpeg"/>
-                <img className="img-music" src="./images/rock.jpeg"/>
-                <img className="img-music" src="./images/rock.jpeg"/>
+                <img className="img-music" src="./images/musica.jpg"/>
+                <img className="img-music" src="./images/latina.jpg"/>
+                <img className="img-music" src="./images/pop.png"/>
+                <img className="img-music" src="./images/images.jpeg"/>
             </div>
             <Notices 
                 sections={ sections }
